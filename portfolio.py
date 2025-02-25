@@ -388,7 +388,6 @@ def experience():
         </div>
         """, unsafe_allow_html=True)
 
-
 # Projects section
 def projects():
     st.markdown('<div class="section-title">Projects</div>', unsafe_allow_html=True)
