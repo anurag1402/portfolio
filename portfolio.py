@@ -341,32 +341,28 @@ def header():
                 <li class="bullet-point">Optimizing LLM performance through advanced prompt engineering</li>
             </ul>
             
-        <p style="margin-top: 1rem;">Currently exploring new opportunities to leverage AI for business transformation and process optimization.</p>
+        <p style="margin-top: 1rem;">Currently exploring new opportunities to leverage Data,ML,AI for business transformation and process optimization.</p>
         </div>
         """, unsafe_allow_html=True)
         
-        # Call-to-action buttons
-        st.markdown("""
-        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
-            <a href="#contact" class="project-link">Contact Me</a>
-            <a href="#projects" class="project-link">View Projects</a>
-        </div>
-        """, unsafe_allow_html=True)
 
     with col2:
         # Animated stats
         st.markdown("""
+        <div style="margin-top: 1.5rem;">
+            <p>Previous :</p>
+        st.markdown("""
         <div class="card" style="text-align: center;">
-            <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">3+</div>
-            <div>AI-powered solutions deployed</div>
+            <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">5</div>
+            <div>AI-powered solutions  overall</div>
         </div>
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">21%</div>
-            <div>Improvement in ticket resolution</div>
+            <div>Improvement in ticket resolution for a  Fintech Portfolio. </div>
         </div>
         <div class="card" style="text-align: center;">
-            <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">12%</div>
-            <div>Boost in client operations</div>
+            <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">8%</div>
+            <div>Boost in client operations for a UK-Based NBFC</div>
         </div>
         """, unsafe_allow_html=True)
 # Experience section
@@ -493,7 +489,6 @@ def contact():
         st.markdown("""
         <div class="card">
             <div class="card-title">Contact Information</div>
-            <p>Interested in collaborating or learning more about my work? Feel free to reach out!</p>
             <p><span class="highlight">📧 Email:</span> <a href="mailto:anuanand1402@gmail.com" class="contact-link">anuanand1402@gmail.com</a></p>
             <p><span class="highlight">📱 Phone:</span> +918529706039</p>
             <p><span class="highlight">💼 LinkedIn:</span> <a href="https://linkedin.com/in/anuraganand1402" target="_blank" class="contact-link">linkedin.com/in/anuraganand1402</a></p>
@@ -522,10 +517,10 @@ def contact():
                 """
                 components.html(open_mail_js)
                 st.success("Thanks for reaching out! Your Gmail should open shortly with the pre-filled message.")
-
-
-
+                
+        # Correct path to the resume file
         st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
+
 
 # Main function to run the app
 def main():
