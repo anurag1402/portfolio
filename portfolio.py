@@ -317,53 +317,50 @@ def sidebar():
 # Header section
 def header():
     col1, col2 = st.columns([2, 1])
-
-    import streamlit as st
-
-with col1:
-    st.markdown('<div class="main-title">Hello, I\'m Anurag Anand.</div>', unsafe_allow_html=True)
-    st.markdown('<div class="sub-title">Building intelligent solutions with data science & AI.</div>', unsafe_allow_html=True)
-
-    st.markdown("""
-    Results-driven **Data Scientist** with demonstrated success in implementing and deploying
-    Generative AI and data solutions for enterprise applications. Proven track record in delivering
-    production-ready systems that drive operational efficiency and data-informed decision-making.
-    """)
-
-    # Additional professional summary
-    st.markdown("""
-    <div style="margin-top: 1.5rem;">
-        <p>I specialize in building <span class="highlight">end-to-end AI solutions</span> that transform business
-        operations through intelligent automation. My expertise includes:</p>
-
-    <ul style="list-style-type: none; padding-left: 0;">
-            <li class="bullet-point">Building and automating data pipelines using Python (Pandas, SQL) and cloud tools like Azure</li>
-            <li class="bullet-point">Training and fine-tuning machine learning models using Scikit-learn, PyTorch</li>
-            <li class="bullet-point">Implementing Retrieval-Augmented Generation (RAG) systems using LangChain and vector databases</li>
-            <li class="bullet-point">Developing dashboards and visualizations with Tableau, Power BI, or Matplotlib to present insights</li>
-            <li class="bullet-point">Optimizing Large Language Models (LLMs) with prompt engineering and parameter tuning</li>
-        </ul>
-    </div>
-    """, unsafe_allow_html=True)
-
-    # Ribbon-style callout for job opportunities
-    st.markdown("""
-    <div style="
-        background-color: #64ffda;
-        color: #0d1117;
-        padding: 12px;
-        border-radius: 8px;
-        font-size: 1.1rem;
-        font-weight: 600;
-        text-align: center;
-        margin-top: 1.5rem;
-        box-shadow: 2px 2px 10px rgba(100, 255, 218, 0.4);
-    ">
-        🚀 Currently exploring new opportunities to leverage Data Analytics,ML & AI for business transformation and process optimization.
-    </div>
-    """, unsafe_allow_html=True)
-
-        
+    with col1:
+        st.markdown('<div class="main-title">Hello, I\'m Anurag Anand.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sub-title">Building intelligent solutions with data science & AI.</div>', unsafe_allow_html=True)
+    
+        st.markdown("""
+        Results-driven **Data Scientist** with demonstrated success in implementing and deploying
+        Generative AI and data solutions for enterprise applications. Proven track record in delivering
+        production-ready systems that drive operational efficiency and data-informed decision-making.
+        """)
+    
+        # Additional professional summary
+        st.markdown("""
+        <div style="margin-top: 1.5rem;">
+            <p>I specialize in building <span class="highlight">end-to-end AI solutions</span> that transform business
+            operations through intelligent automation. My expertise includes:</p>
+    
+        <ul style="list-style-type: none; padding-left: 0;">
+                <li class="bullet-point">Building and automating data pipelines using Python (Pandas, SQL) and cloud tools like Azure</li>
+                <li class="bullet-point">Training and fine-tuning machine learning models using Scikit-learn, PyTorch</li>
+                <li class="bullet-point">Implementing Retrieval-Augmented Generation (RAG) systems using LangChain and vector databases</li>
+                <li class="bullet-point">Developing dashboards and visualizations with Tableau, Power BI, or Matplotlib to present insights</li>
+                <li class="bullet-point">Optimizing Large Language Models (LLMs) with prompt engineering and parameter tuning</li>
+            </ul>
+        </div>
+        """, unsafe_allow_html=True)
+    
+        # Ribbon-style callout for job opportunities
+        st.markdown("""
+        <div style="
+            background-color: #64ffda;
+            color: #0d1117;
+            padding: 12px;
+            border-radius: 8px;
+            font-size: 1.1rem;
+            font-weight: 600;
+            text-align: center;
+            margin-top: 1.5rem;
+            box-shadow: 2px 2px 10px rgba(100, 255, 218, 0.4);
+        ">
+            🚀 Currently exploring new opportunities to leverage Data Analytics,ML & AI for business transformation and process optimization.
+        </div>
+        """, unsafe_allow_html=True)
+    
+            
 
     with col2:
         # Animated stats
