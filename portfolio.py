@@ -415,7 +415,7 @@ def projects():
             <div class="bullet-point">Implemented production-ready integration of company goals, values, and audience targeting for automated content creation.</div>
             <div class="bullet-point">Built and deployed scalable solution using Python, AutoGen framework, and OpenAI's GPT-4/DALL-E 3.</div>
             <div class="bullet-point">Implemented prompt engineering techniques for enhanced AI responses.</div>
-            <a href="https://campaigncrafter-g0fre4bzc4cbb7b8.uksouth-01.azurewebsites.net/" target="_blank" class="project-link">View Live Project</a>
+            <a href="https://campaigncrafter-g0fre4bzc4cbb7b8.uksouth-01.azurewebsites.net/" target="_blank" class="project-link">View Protype/POC for the Project</a>
         </div>
         """, unsafe_allow_html=True)
 
