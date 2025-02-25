@@ -525,7 +525,7 @@ def contact():
 
 
 
-                st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
+        st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
 
 # Main function to run the app
 def main():
