@@ -472,6 +472,14 @@ def timeline():
     """, unsafe_allow_html=True)
 
 # Contact section
+def create_gmail_link(to, subject, body):
+    """Create a Gmail link with pre-filled subject and body."""
+    base_url = "https://mail.google.com/mail/?view=cm&fs=1&tf=1"
+    subject_param = urllib.parse.quote(subject)
+    body_param = urllib.parse.quote(body)
+    gmail_url = f"{base_url}&su={subject_param}&body={body_param}&to={to}"
+    return gmail_url
+
 def contact():
     st.markdown('<div class="section-title">Get In Touch</div>', unsafe_allow_html=True)
 
@@ -487,14 +495,6 @@ def contact():
             <p><span class="highlight">💼 LinkedIn:</span> <a href="https://linkedin.com/in/anuraganand1402" target="_blank" class="contact-link">linkedin.com/in/anuraganand1402</a></p>
         </div>
         """, unsafe_allow_html=True)
-        st.markdown('<div class="section-title">Other Interests</div>', unsafe_allow_html=True)
-
-        st.markdown("""
-        <div class="card">
-            <div class="bullet-point">Competitive athlete: Led school cricket team to 3rd place in 56-school tournament.</div>
-            <div class="bullet-point">Avid reader: Recently completed "Nexus" by Yuval Noah Harari and "Transformed" by Marty Cagan.</div>
-        </div>
-        """, unsafe_allow_html=True)
 
     with col2:
         with st.form("contact_form"):
@@ -504,7 +504,15 @@ def contact():
             message = st.text_area("Message")
             submitted = st.form_submit_button("Send Message")
             if submitted:
-                st.success("Thanks for reaching out! I'll get back to you soon.")
+                # Create Gmail link
+                recipient_email = "anuanand1402@gmail.com"
+                subject = f"Message from {name}"
+                email_body = f"Name: {name}\nEmail: {email}\n\nMessage:\n{message}"
+                gmail_url = create_gmail_link(recipient_email, subject, email_body)
+
+                # Add button to open in Gmail
+                st.markdown(f'<a href="{gmail_url}" target="_blank"><button style="background-color:#64ffda;color:#112240;padding:10px;border:none;border-radius:5px;cursor:pointer;">Open in Gmail</button></a>', unsafe_allow_html=True)
+                st.success("Thanks for reaching out! Click the button to open Gmail with the pre-filled message.")
 
         # Resume download button
         st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
