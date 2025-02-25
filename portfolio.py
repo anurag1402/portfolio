@@ -529,12 +529,14 @@ def contact():
                 </script>
                 """
                 components.html(open_mail_js)
-                st.success("Thanks for reaching out! Your Gmail should open shortly with the pre-filled message.")
+                st.success("Thanks for reaching out! Your mail should open shortly with the pre-filled message.")
 
 
 
-                st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
-        st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
+                
+
+        st.markdown('<a href="https://drive.google.com/file/d/1m3TR4KsNaR0a4jdFOX1232_qZrTideo4/view?usp=sharing" target="_blank" class="resume-button">Download Resume</a>', unsafe_allow_html=True)
+
 
 # Main function to run the app
 def main():
