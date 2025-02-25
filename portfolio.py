@@ -333,25 +333,20 @@ def header():
         <div style="margin-top: 1.5rem;">
             <p>I specialize in building <span class="highlight">end-to-end AI solutions</span> that transform business 
             operations through intelligent automation. My expertise includes:</p>
-            
+     
         <ul style="list-style-type: none; padding-left: 0;">
-                <li class="bullet-point">Implementing production-grade RAG systems and multi-agent frameworks</li>
-                <li class="bullet-point">Developing data-driven solutions for real-world business challenges</li>
-                <li class="bullet-point">Creating scalable ML pipelines with Python and cloud infrastructure</li>
-                <li class="bullet-point">Optimizing LLM performance through advanced prompt engineering</li>
+                <li class="bullet-point">Building and automating data pipelines using Python (Pandas, SQL) and cloud tools like Azure</li>
+                <li class="bullet-point">Training and fine-tuning machine learning models using Scikit-learn, PyTorch</li>
+                <li class="bullet-point">Implementing Retrieval-Augmented Generation (RAG) systems using LangChain and vector databases</li>
+                <li class="bullet-point">Developing dashboards and visualizations with Tableau, Power BI, or Matplotlib to present insights</li>
+                <li class="bullet-point">Optimizing Large Language Models (LLMs) with prompt engineering and parameter tuning</li>
             </ul>
-            
+
         <p style="margin-top: 1rem;">Currently exploring new opportunities to leverage AI for business transformation and process optimization.</p>
         </div>
         """, unsafe_allow_html=True)
 
-        # Call-to-action buttons
-        st.markdown("""
-        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
-            <a href="#contact" class="project-link">Contact Me</a>
-            <a href="#projects" class="project-link">View Projects</a>
-        </div>
-        """, unsafe_allow_html=True)
+        
 
     with col2:
         # Animated stats
@@ -362,11 +357,11 @@ def header():
         </div>
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">21%</div>
-            <div>Improvement in ticket resolution</div>
+            <div>Improvement in ticket resolution for Fintech Portfoio</div>
         </div>
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">12%</div>
-            <div>Boost in client operations</div>
+            <div>Boost in client operations for UK based Consumer Finance startup</div>
         </div>
         """, unsafe_allow_html=True)
 # Experience section
@@ -493,7 +488,6 @@ def contact():
         st.markdown("""
         <div class="card">
             <div class="card-title">Contact Information</div>
-            <p>Interested in collaborating or learning more about my work? Feel free to reach out!</p>
             <p><span class="highlight">📧 Email:</span> <a href="mailto:anuanand1402@gmail.com" class="contact-link">anuanand1402@gmail.com</a></p>
             <p><span class="highlight">📱 Phone:</span> +918529706039</p>
             <p><span class="highlight">💼 LinkedIn:</span> <a href="https://linkedin.com/in/anuraganand1402" target="_blank" class="contact-link">linkedin.com/in/anuraganand1402</a></p>
