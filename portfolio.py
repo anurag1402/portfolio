@@ -2,6 +2,7 @@ import streamlit as st
 from PIL import Image
 import base64
 import random
+import urllib.parse
 
 # Page configuration
 st.set_page_config(
