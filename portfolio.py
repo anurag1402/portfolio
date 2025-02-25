@@ -518,8 +518,8 @@ def contact():
                 components.html(open_mail_js)
                 st.success("Thanks for reaching out! Your Gmail should open shortly with the pre-filled message.")
                 
-        # Correct path to the resume file
-        st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
+            # Correct path to the resume file
+            st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
 
 
 # Main function to run the app
