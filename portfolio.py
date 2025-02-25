@@ -373,7 +373,7 @@ def experience():
         st.markdown("""
         <div class="card">
             <div class="card-title">Associate Data Scientist</div>
-            <div class="card-subtitle">Blenheim Chalcot (UKs Leading Digital Venture Builder) | 06/2024 - 01/2025</div>
+            <div class="card-subtitle">Blenheim Chalcot (UK's Leading Digital Venture Builder) | 6/2024 - 1/2025</div>
             <div class="bullet-point">Boosted onboarding efficiency by 13% and improved ticket resolution by 21% by deploying AI-driven tools for customer onboarding and support, directly benefiting fintech and edtech ventures.</div>
             <div class="bullet-point">Successfully implemented and deployed 3+ AI-powered automation solutions for document validation and customer workflow optimization, driving a measured improvement of 12% in client operations and user engagement.</div>
             <div class="bullet-point">Collaborated with Technical Architect and CXOs to develop and deploy 4 multi-Agent & RAG based solutions at enterprise scale, streamlining core business processes in screening, verification, and content generation.</div>
@@ -382,11 +382,12 @@ def experience():
 
         <div class="card">
             <div class="card-title">System Design Intern</div>
-            <div class="card-subtitle">Continental Device India (Semiconductor Components Manufacturer) | 07/2023 - 12/2023</div>
+            <div class="card-subtitle">Continental Device India (Semiconductor Components Manufacturer) | 7/2023 - 12/2023</div>
             <div class="bullet-point">Implemented data analytics solution that reduced component failure rate from 15% to <11% through collaboration with engineering and QA teams and deployment of real-time monitoring dashboard.</div>
             <div class="bullet-point">Developed and deployed data-driven test automation systems, adhering to AECQ standards, resulting in 17% improvement in testing efficiency.</div>
         </div>
         """, unsafe_allow_html=True)
+
 
 # Projects section
 def projects():
