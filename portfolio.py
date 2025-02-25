@@ -3,6 +3,7 @@ from PIL import Image
 import base64
 import random
 import urllib.parse
+import streamlit.components.v1 as components
 
 # Page configuration
 st.set_page_config(
@@ -473,6 +474,8 @@ def timeline():
     """, unsafe_allow_html=True)
 
 # Contact section
+
+
 def create_gmail_link(to, subject, body):
     """Create a Gmail link with pre-filled subject and body."""
     base_url = "https://mail.google.com/mail/?view=cm&fs=1&tf=1"
@@ -511,12 +514,18 @@ def contact():
                 email_body = f"Name: {name}\nEmail: {email}\n\nMessage:\n{message}"
                 gmail_url = create_gmail_link(recipient_email, subject, email_body)
 
-                # Add button to open in Gmail
-                st.markdown(f'<a href="{gmail_url}" target="_blank"><button style="background-color:#64ffda;color:#112240;padding:10px;border:none;border-radius:5px;cursor:pointer;">Open in Gmail</button></a>', unsafe_allow_html=True)
-                st.success("Thanks for reaching out! Click the button to open Gmail with the pre-filled message.")
+                # JavaScript to open the Gmail compose window
+                open_mail_js = f"""
+                <script type="text/javascript">
+                    window.open("{gmail_url}", "_blank");
+                </script>
+                """
+                components.html(open_mail_js)
+                st.success("Thanks for reaching out! Your Gmail should open shortly with the pre-filled message.")
 
-        # Resume download button
-        st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
+
+
+                st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
 
 # Main function to run the app
 def main():
