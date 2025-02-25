@@ -327,7 +327,7 @@ def header():
         Generative AI and data solutions for enterprise applications. Proven track record in delivering
         production-ready systems that drive operational efficiency and data-informed decision-making.
         """)
-        
+
         # Additional professional summary
         st.markdown("""
         <div style="margin-top: 1.5rem;">
@@ -341,28 +341,32 @@ def header():
                 <li class="bullet-point">Optimizing LLM performance through advanced prompt engineering</li>
             </ul>
             
-        <p style="margin-top: 1rem;">Currently exploring new opportunities to leverage Data,ML,AI for business transformation and process optimization.</p>
+        <p style="margin-top: 1rem;">Currently exploring new opportunities to leverage AI for business transformation and process optimization.</p>
         </div>
         """, unsafe_allow_html=True)
-        
+
+        # Call-to-action buttons
+        st.markdown("""
+        <div style="display: flex; gap: 1rem; margin-top: 1.5rem;">
+            <a href="#contact" class="project-link">Contact Me</a>
+            <a href="#projects" class="project-link">View Projects</a>
+        </div>
+        """, unsafe_allow_html=True)
 
     with col2:
         # Animated stats
         st.markdown("""
-        <div style="margin-top: 1.5rem;">
-            <p>Previous :</p>
-        st.markdown("""
         <div class="card" style="text-align: center;">
-            <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">5</div>
-            <div>AI-powered solutions  overall</div>
+            <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">3+</div>
+            <div>AI-powered solutions deployed</div>
         </div>
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">21%</div>
-            <div>Improvement in ticket resolution for a  Fintech Portfolio. </div>
+            <div>Improvement in ticket resolution</div>
         </div>
         <div class="card" style="text-align: center;">
-            <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">8%</div>
-            <div>Boost in client operations for a UK-Based NBFC</div>
+            <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">12%</div>
+            <div>Boost in client operations</div>
         </div>
         """, unsafe_allow_html=True)
 # Experience section
@@ -373,7 +377,7 @@ def experience():
         st.markdown("""
         <div class="card">
             <div class="card-title">Associate Data Scientist</div>
-            <div class="card-subtitle">Blenheim Chalcot (UK's Leading Digital Venture Builder) | 6/2024 - 1/2025</div>
+            <div class="card-subtitle">Blenheim Chalcot (UK's Leading Digital Venture Builder) | 06/2024 - 01/2025</div>
             <div class="bullet-point">Boosted onboarding efficiency by 13% and improved ticket resolution by 21% by deploying AI-driven tools for customer onboarding and support, directly benefiting fintech and edtech ventures.</div>
             <div class="bullet-point">Successfully implemented and deployed 3+ AI-powered automation solutions for document validation and customer workflow optimization, driving a measured improvement of 12% in client operations and user engagement.</div>
             <div class="bullet-point">Collaborated with Technical Architect and CXOs to develop and deploy 4 multi-Agent & RAG based solutions at enterprise scale, streamlining core business processes in screening, verification, and content generation.</div>
@@ -382,7 +386,7 @@ def experience():
 
         <div class="card">
             <div class="card-title">System Design Intern</div>
-            <div class="card-subtitle">Continental Device India (Semiconductor Components Manufacturer) | 7/2023 - 12/2023</div>
+            <div class="card-subtitle">Continental Device India (Semiconductor Components Manufacturer) | 07/2023 - 12/2023</div>
             <div class="bullet-point">Implemented data analytics solution that reduced component failure rate from 15% to <11% through collaboration with engineering and QA teams and deployment of real-time monitoring dashboard.</div>
             <div class="bullet-point">Developed and deployed data-driven test automation systems, adhering to AECQ standards, resulting in 17% improvement in testing efficiency.</div>
         </div>
@@ -431,7 +435,7 @@ def education():
     </div>
     """, unsafe_allow_html=True)
 
-    
+
 
 # Timeline visualization
 def timeline():
@@ -489,6 +493,7 @@ def contact():
         st.markdown("""
         <div class="card">
             <div class="card-title">Contact Information</div>
+            <p>Interested in collaborating or learning more about my work? Feel free to reach out!</p>
             <p><span class="highlight">📧 Email:</span> <a href="mailto:anuanand1402@gmail.com" class="contact-link">anuanand1402@gmail.com</a></p>
             <p><span class="highlight">📱 Phone:</span> +918529706039</p>
             <p><span class="highlight">💼 LinkedIn:</span> <a href="https://linkedin.com/in/anuraganand1402" target="_blank" class="contact-link">linkedin.com/in/anuraganand1402</a></p>
@@ -517,10 +522,11 @@ def contact():
                 """
                 components.html(open_mail_js)
                 st.success("Thanks for reaching out! Your Gmail should open shortly with the pre-filled message.")
-                
-            # Correct path to the resume file
-            st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
 
+
+
+                st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
+        st.markdown('<a href="resume.pdf" download class="resume-button">Download Resume</a>', unsafe_allow_html=True)
 
 # Main function to run the app
 def main():
