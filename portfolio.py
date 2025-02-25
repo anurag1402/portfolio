@@ -373,7 +373,7 @@ def experience():
         st.markdown("""
         <div class="card">
             <div class="card-title">Associate Data Scientist</div>
-            <div class="card-subtitle">Blenheim Chalcot (UK's Leading Digital Venture Builder) | 06/2024 - 01/2025</div>
+            <div class="card-subtitle">Blenheim Chalcot (UKs Leading Digital Venture Builder) | 06/2024 - 01/2025</div>
             <div class="bullet-point">Boosted onboarding efficiency by 13% and improved ticket resolution by 21% by deploying AI-driven tools for customer onboarding and support, directly benefiting fintech and edtech ventures.</div>
             <div class="bullet-point">Successfully implemented and deployed 3+ AI-powered automation solutions for document validation and customer workflow optimization, driving a measured improvement of 12% in client operations and user engagement.</div>
             <div class="bullet-point">Collaborated with Technical Architect and CXOs to develop and deploy 4 multi-Agent & RAG based solutions at enterprise scale, streamlining core business processes in screening, verification, and content generation.</div>
