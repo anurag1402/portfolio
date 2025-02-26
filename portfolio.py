@@ -334,15 +334,15 @@ def header():
             <p>My expertise spans multiple areas of <strong>AI and data science</strong>, including:</p>
     
         <ul style="list-style-type: none; padding-left: 0;">
-                <li class="bullet-point">▹ <strong>Data Engineering:</strong> Building and automating <strong>data pipelines</strong> using 
+                <li class="bullet-point"> <strong>Data Engineering:</strong> Building and automating <strong>data pipelines</strong> using 
                 <strong>Python (Pandas, SQL)</strong> and <strong>cloud platforms</strong> like <strong>Azure</strong></li>
-                <li class="bullet-point">▹ <strong>Machine Learning:</strong> Developing and fine-tuning <strong>ML models</strong> with 
+                <li class="bullet-point"><strong>Machine Learning:</strong> Developing and fine-tuning <strong>ML models</strong> with 
                 <strong>Scikit-learn</strong> and <strong>PyTorch</strong></li>
-                <li class="bullet-point">▹ <strong>Generative AI & NLP:</strong> Implementing <strong>Retrieval-Augmented Generation (RAG)</strong> 
+                <li class="bullet-point"> <strong>Generative AI & NLP:</strong> Implementing <strong>Retrieval-Augmented Generation (RAG)</strong> 
                 using <strong>LangChain</strong> and <strong>vector databases</strong></li>
-                <li class="bullet-point">▹ <strong>Data Visualization:</strong> Creating interactive <strong>dashboards</strong> and <strong>reports</strong> 
+                <li class="bullet-point"> <strong>Data Visualization:</strong> Creating interactive <strong>dashboards</strong> and <strong>reports</strong> 
                 with <strong>Tableau, Power BI</strong>, and <strong>Matplotlib</strong></li>
-                <li class="bullet-point">▹ <strong>LLM Optimization:</strong> Optimizing <strong>Large Language Models (LLMs)</strong> with 
+                <li class="bullet-point"> <strong>LLM Optimization:</strong> Optimizing <strong>Large Language Models (LLMs)</strong> with 
                 <strong>prompt engineering</strong> and <strong>parameter tuning</strong></li>
             </ul>
         </div>
