@@ -331,8 +331,8 @@ def header():
         # Professional expertise summary
         st.markdown("""
         <div style="margin-top: 1.5rem;">
-        <p>I enjoy working on **end-to-end AI solutions** that help organizations make better 
-            decisions and streamline processes. My areas of focus include:</p>
+        I enjoy working on **end-to-end AI solutions** that help organizations make better 
+            decisions and streamline processes. My areas of focus include:
     
         <ul style="list-style-type: none; padding-left: 0;">
                 <li class="bullet-point">Developing data pipelines using Python (Pandas, SQL) and cloud services like Azure</li>
