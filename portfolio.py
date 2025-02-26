@@ -333,7 +333,7 @@ def header():
         <div style="margin-top: 1.5rem;">
             <p>My expertise spans multiple areas of <strong>AI and data science</strong>, including:</p>
     
-            <ul style="list-style-type: none; padding-left: 0;">
+        <ul style="list-style-type: none; padding-left: 0;">
                 <li class="bullet-point">▹ <strong>Data Engineering:</strong> Building and automating <strong>data pipelines</strong> using 
                 <strong>Python (Pandas, SQL)</strong> and <strong>cloud platforms</strong> like <strong>Azure</strong></li>
                 <li class="bullet-point">▹ <strong>Machine Learning:</strong> Developing and fine-tuning <strong>ML models</strong> with 
@@ -368,7 +368,7 @@ def header():
         # Optional: Add a button for engagement
         st.markdown("""
         <div style="text-align: center; margin-top: 1rem;">
-            <a href="https://www.linkedin.com/in/anuraganand14" target="_blank" style="
+            <a href="https://www.linkedin.com/in/anuraganand1402" target="_blank" style="
                 background-color: #0d1117;
                 color: #64ffda;
                 padding: 10px 20px;
