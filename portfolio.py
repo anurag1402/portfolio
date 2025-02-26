@@ -332,7 +332,7 @@ def header():
         <div style="margin-top: 1.5rem;">
         <p>My expertise spans multiple areas of AI and data science, including:</p>
     
-            <ul style="list-style-type: none; padding-left: 0;">
+        <ul style="list-style-type: none; padding-left: 0;">
                 <li class="bullet-point"><strong>Data Engineering:</strong> Building and automating **data pipelines** using **Python (Pandas, SQL)** and **cloud platforms** like **Azure**</li>
                 <li class="bullet-point"><strong>Machine Learning:</strong> Developing and fine-tuning **ML models** with **Scikit-learn** and **PyTorch**</li>
                 <li class="bullet-point"><strong>Generative AI & NLP:</strong> Implementing **Retrieval-Augmented Generation (RAG)** using **LangChain** and **vector databases**</li>
