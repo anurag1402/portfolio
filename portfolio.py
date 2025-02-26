@@ -331,10 +331,10 @@ def header():
         # Professional expertise summary
         st.markdown("""
         <div style="margin-top: 1.5rem;">
-            <p>I enjoy working on **end-to-end AI solutions** that help organizations make better 
+        <p>I enjoy working on **end-to-end AI solutions** that help organizations make better 
             decisions and streamline processes. My areas of focus include:</p>
     
-            <ul style="list-style-type: none; padding-left: 0;">
+        <ul style="list-style-type: none; padding-left: 0;">
                 <li class="bullet-point">Developing data pipelines using Python (Pandas, SQL) and cloud services like Azure</li>
                 <li class="bullet-point">Training and fine-tuning machine learning models with Scikit-learn and PyTorch</li>
                 <li class="bullet-point">Implementing Retrieval-Augmented Generation (RAG) systems with LangChain and vector databases</li>
