@@ -323,44 +323,60 @@ def header():
     
         st.markdown("""
         I am a **Data Scientist** with experience in designing and deploying **AI** and **machine learning solutions** 
-        that enhance business operations. My work focuses on Gen-AI implementation**, from **data engineering** 
+        that enhance business operations. I specialize in **implementing Gen-AI solutions**, from **data engineering** 
         to **model development and deployment**.
         """)
     
-        # Professional expertise summary
+        # Professional expertise summary with improved hierarchy and spacing
         st.markdown("""
         <div style="margin-top: 1.5rem;">
-        <p>My expertise spans multiple areas of AI and data science, including:</p>
+            <p>My expertise spans multiple areas of **AI and data science**, including:</p>
     
         <ul style="list-style-type: none; padding-left: 0;">
-                <li class="bullet-point"><strong>Data Engineering:</strong> Building and automating **data pipelines** using **Python (Pandas, SQL)** and **cloud platforms** like **Azure**</li>
-                <li class="bullet-point"><strong>Machine Learning:</strong> Developing and fine-tuning **ML models** with **Scikit-learn** and **PyTorch**</li>
-                <li class="bullet-point"><strong>Generative AI & NLP:</strong> Implementing **Retrieval-Augmented Generation (RAG)** using **LangChain** and **vector databases**</li>
-                <li class="bullet-point"><strong>Data Visualization:</strong> Creating interactive **dashboards** and **reports** with **Tableau, Power BI**, and **Matplotlib**</li>
-                <li class="bullet-point"><strong>LLM Optimization:</strong> Enhancing **Large Language Models (LLMs)** with **prompt engineering** and **parameter tuning**</li>
+            <li class="bullet-point">▹ <strong>Data Engineering:</strong> Building and automating **data pipelines** using **Python (Pandas, SQL)** and **cloud platforms** like **Azure**</li>
+            <li class="bullet-point">▹ <strong>Machine Learning:</strong> Developing and fine-tuning **ML models** with **Scikit-learn** and **PyTorch**</li>
+            <li class="bullet-point">▹ <strong>Generative AI & NLP:</strong> Implementing **Retrieval-Augmented Generation (RAG)** using **LangChain** and **vector databases**</li>
+            <li class="bullet-point">▹ <strong>Data Visualization:</strong> Creating interactive **dashboards** and **reports** with **Tableau, Power BI**, and **Matplotlib**</li>
+            <li class="bullet-point">▹ <strong>LLM Optimization:</strong> Optimizing **Large Language Models (LLMs)** with **prompt engineering** and **parameter tuning**</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
     
-        # Call-to-action for opportunities
+        # Call-to-action with enhanced design
         st.markdown("""
         <div style="
             background-color: #64ffda;
             color: #0d1117;
-            padding: 12px;
-            border-radius: 8px;
-            font-size: 1.1rem;
-            font-weight: 600;
+            padding: 14px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: 700;
             text-align: center;
-            margin-top: 1.5rem;
-            box-shadow: 2px 2px 10px rgba(100, 255, 218, 0.4);
+            margin-top: 1.8rem;
+            box-shadow: 3px 3px 12px rgba(100, 255, 218, 0.4);
         ">
-            🚀 Exploring opportunities to apply **AI, Data Science, and ML** to drive innovation and efficiency.
+            🚀 Exploring opportunities to apply <strong>AI, Data Science, and ML</strong> to drive innovation and efficiency.
+        </div>
+        """, unsafe_allow_html=True)
+        
+        # Optional: Add a button for engagement
+        st.markdown("""
+        <div style="text-align: center; margin-top: 1rem;">
+            <a href="https://www.linkedin.com/in/anuraganand" target="_blank" style="
+                background-color: #0d1117;
+                color: #64ffda;
+                padding: 10px 20px;
+                border-radius: 8px;
+                font-size: 1rem;
+                font-weight: 600;
+                text-decoration: none;
+                display: inline-block;
+            ">💼 Connect on LinkedIn</a>
         </div>
         """, unsafe_allow_html=True)
 
     with col2:
-        # Performance highlights
+        # Performance highlights with improved readability
         st.markdown("""
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">3+</div>
@@ -375,6 +391,7 @@ def header():
             <div>Increase in operational efficiency for a UK-based startup</div>
         </div>
         """, unsafe_allow_html=True)
+
 
 # Experience section
 def experience():
