@@ -319,31 +319,32 @@ def header():
     col1, col2 = st.columns([2, 1])
     with col1:
         st.markdown('<div class="main-title">Hello, I\'m Anurag Anand.</div>', unsafe_allow_html=True)
-        st.markdown('<div class="sub-title">Building intelligent solutions with data science & AI.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sub-title">Exploring the potential of AI and data-driven solutions.</div>', unsafe_allow_html=True)
     
         st.markdown("""
-        Results-driven **Data Scientist** with demonstrated success in implementing and deploying
-        Generative AI and data solutions for enterprise applications. Proven track record in delivering
-        production-ready systems that drive operational efficiency and data-informed decision-making.
+        I am a **Data Scientist** passionate about leveraging **AI** and **data analytics** to solve 
+        real-world challenges. My experience includes developing **machine learning models**, 
+        automating **data workflows**, and implementing **Generative AI** applications to improve 
+        business operations.
         """)
     
-        # Additional professional summary
+        # Professional expertise summary
         st.markdown("""
         <div style="margin-top: 1.5rem;">
-            <p>I specialize in building <span class="highlight">end-to-end AI solutions</span> that transform business
-            operations through intelligent automation. My expertise includes:</p>
+            <p>I enjoy working on **end-to-end AI solutions** that help organizations make better 
+            decisions and streamline processes. My areas of focus include:</p>
     
-        <ul style="list-style-type: none; padding-left: 0;">
-                <li class="bullet-point">Building and automating data pipelines using Python (Pandas, SQL) and cloud tools like Azure</li>
-                <li class="bullet-point">Training and fine-tuning machine learning models using Scikit-learn, PyTorch</li>
-                <li class="bullet-point">Implementing Retrieval-Augmented Generation (RAG) systems using LangChain and vector databases</li>
-                <li class="bullet-point">Developing dashboards and visualizations with Tableau, Power BI, or Matplotlib to present insights</li>
-                <li class="bullet-point">Optimizing Large Language Models (LLMs) with prompt engineering and parameter tuning</li>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li class="bullet-point">Developing data pipelines using Python (Pandas, SQL) and cloud services like Azure</li>
+                <li class="bullet-point">Training and fine-tuning machine learning models with Scikit-learn and PyTorch</li>
+                <li class="bullet-point">Implementing Retrieval-Augmented Generation (RAG) systems with LangChain and vector databases</li>
+                <li class="bullet-point">Building dashboards and visualizations using Tableau, Power BI, and Matplotlib</li>
+                <li class="bullet-point">Optimizing Large Language Models (LLMs) through prompt engineering and tuning</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
     
-        # Ribbon-style callout for job opportunities
+        # Call-to-action for opportunities
         st.markdown("""
         <div style="
             background-color: #64ffda;
@@ -356,28 +357,27 @@ def header():
             margin-top: 1.5rem;
             box-shadow: 2px 2px 10px rgba(100, 255, 218, 0.4);
         ">
-            🚀 Currently exploring new opportunities to leverage Data Analytics,ML & AI for business transformation and process optimization.
+            🚀 Open to opportunities where **AI, Data Science, and ML** can contribute to meaningful business impact.
         </div>
         """, unsafe_allow_html=True)
-    
-            
 
     with col2:
-        # Animated stats
+        # Performance highlights
         st.markdown("""
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">3+</div>
-            <div>AI-powered solutions deployed</div>
+            <div>AI-driven solutions implemented</div>
         </div>
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">21%</div>
-            <div>Improvement in ticket resolution for Fintech Portfoio</div>
+            <div>Reduction in ticket resolution time for a financial services company</div>
         </div>
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">12%</div>
-            <div>Boost in client operations for UK based Consumer Finance startup</div>
+            <div>Improvement in operational efficiency for a UK-based startup</div>
         </div>
         """, unsafe_allow_html=True)
+
 # Experience section
 def experience():
     st.markdown('<div class="section-title">Experience</div>', unsafe_allow_html=True)
