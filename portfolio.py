@@ -319,27 +319,25 @@ def header():
     col1, col2 = st.columns([2, 1])
     with col1:
         st.markdown('<div class="main-title">Hello, I\'m Anurag Anand.</div>', unsafe_allow_html=True)
-        st.markdown('<div class="sub-title">Exploring the potential of AI and data-driven solutions.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sub-title">Building AI-driven solutions for data-driven decision-making.</div>', unsafe_allow_html=True)
     
         st.markdown("""
-        I am a **Data Scientist** passionate about leveraging **AI** and **data analytics** to solve 
-        real-world challenges. My experience includes developing **machine learning models**, 
-        automating **data workflows**, and implementing **Generative AI** applications to improve 
-        business operations.
+        I am a **Data Scientist** with experience in designing and deploying **AI** and **machine learning solutions** 
+        that enhance business operations. My work focuses on **end-to-end AI implementation**, from **data engineering** 
+        to **model development and deployment**.
         """)
     
         # Professional expertise summary
         st.markdown("""
         <div style="margin-top: 1.5rem;">
-        I enjoy working on **end-to-end AI solutions** that help organizations make better 
-            decisions and streamline processes. My areas of focus include:
+            <p>My expertise spans multiple areas of **AI and data science**, including:</p>
     
-        <ul style="list-style-type: none; padding-left: 0;">
-                <li class="bullet-point">Developing data pipelines using Python (Pandas, SQL) and cloud services like Azure</li>
-                <li class="bullet-point">Training and fine-tuning machine learning models with Scikit-learn and PyTorch</li>
-                <li class="bullet-point">Implementing Retrieval-Augmented Generation (RAG) systems with LangChain and vector databases</li>
-                <li class="bullet-point">Building dashboards and visualizations using Tableau, Power BI, and Matplotlib</li>
-                <li class="bullet-point">Optimizing Large Language Models (LLMs) through prompt engineering and tuning</li>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li class="bullet-point"><strong>Data Engineering:</strong> Building and automating **data pipelines** using **Python (Pandas, SQL)** and **cloud platforms** like **Azure**</li>
+                <li class="bullet-point"><strong>Machine Learning:</strong> Developing and fine-tuning **ML models** with **Scikit-learn** and **PyTorch**</li>
+                <li class="bullet-point"><strong>Generative AI & NLP:</strong> Implementing **Retrieval-Augmented Generation (RAG)** using **LangChain** and **vector databases**</li>
+                <li class="bullet-point"><strong>Data Visualization:</strong> Creating interactive **dashboards** and **reports** with **Tableau, Power BI**, and **Matplotlib**</li>
+                <li class="bullet-point"><strong>LLM Optimization:</strong> Enhancing **Large Language Models (LLMs)** with **prompt engineering** and **parameter tuning**</li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -357,7 +355,7 @@ def header():
             margin-top: 1.5rem;
             box-shadow: 2px 2px 10px rgba(100, 255, 218, 0.4);
         ">
-            🚀 Open to opportunities where **AI, Data Science, and ML** can contribute to meaningful business impact.
+            🚀 Exploring opportunities to apply **AI, Data Science, and ML** to drive innovation and efficiency.
         </div>
         """, unsafe_allow_html=True)
 
@@ -374,7 +372,7 @@ def header():
         </div>
         <div class="card" style="text-align: center;">
             <div style="font-size: 2.5rem; font-weight: 800; color: #64ffda;">12%</div>
-            <div>Improvement in operational efficiency for a UK-based startup</div>
+            <div>Increase in operational efficiency for a UK-based startup</div>
         </div>
         """, unsafe_allow_html=True)
 
