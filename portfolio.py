@@ -322,22 +322,28 @@ def header():
         st.markdown('<div class="sub-title">Building AI-driven solutions for data-driven decision-making.</div>', unsafe_allow_html=True)
     
         st.markdown("""
-        I am a **Data Scientist** with experience in designing and deploying **AI** and **machine learning solutions** 
-        that enhance business operations. I specialize in **implementing Gen-AI solutions**, from **data engineering** 
-        to **model development and deployment**.
-        """)
+        I am a <strong>Data Scientist</strong> with experience in designing and deploying <strong>AI</strong> and 
+        <strong>machine learning solutions</strong> that enhance business operations. I specialize in 
+        <strong>implementing Gen-AI solutions</strong>, from <strong>data engineering</strong> to 
+        <strong>model development and deployment</strong>.
+        """, unsafe_allow_html=True)
     
         # Professional expertise summary with improved hierarchy and spacing
         st.markdown("""
         <div style="margin-top: 1.5rem;">
-            <p>My expertise spans multiple areas of **AI and data science**, including:</p>
+            <p>My expertise spans multiple areas of <strong>AI and data science</strong>, including:</p>
     
-        <ul style="list-style-type: none; padding-left: 0;">
-            <li class="bullet-point"><strong>Data Engineering:</strong> Building and automating **data pipelines** using **Python (Pandas, SQL)** and **cloud platforms** like **Azure**</li>
-            <li class="bullet-point"><strong>Machine Learning:</strong> Developing and fine-tuning **ML models** with **Scikit-learn** and **PyTorch**</li>
-            <li class="bullet-point"><strong>Generative AI & NLP:</strong> Implementing **Retrieval-Augmented Generation (RAG)** using **LangChain** and **vector databases**</li>
-            <li class="bullet-point"><strong>Data Visualization:</strong> Creating interactive **dashboards** and **reports** with **Tableau, Power BI**, and **Matplotlib**</li>
-            <li class="bullet-point"><strong>LLM Optimization:</strong> Optimizing **Large Language Models (LLMs)** with **prompt engineering** and **parameter tuning**</li>
+            <ul style="list-style-type: none; padding-left: 0;">
+                <li class="bullet-point">▹ <strong>Data Engineering:</strong> Building and automating <strong>data pipelines</strong> using 
+                <strong>Python (Pandas, SQL)</strong> and <strong>cloud platforms</strong> like <strong>Azure</strong></li>
+                <li class="bullet-point">▹ <strong>Machine Learning:</strong> Developing and fine-tuning <strong>ML models</strong> with 
+                <strong>Scikit-learn</strong> and <strong>PyTorch</strong></li>
+                <li class="bullet-point">▹ <strong>Generative AI & NLP:</strong> Implementing <strong>Retrieval-Augmented Generation (RAG)</strong> 
+                using <strong>LangChain</strong> and <strong>vector databases</strong></li>
+                <li class="bullet-point">▹ <strong>Data Visualization:</strong> Creating interactive <strong>dashboards</strong> and <strong>reports</strong> 
+                with <strong>Tableau, Power BI</strong>, and <strong>Matplotlib</strong></li>
+                <li class="bullet-point">▹ <strong>LLM Optimization:</strong> Optimizing <strong>Large Language Models (LLMs)</strong> with 
+                <strong>prompt engineering</strong> and <strong>parameter tuning</strong></li>
             </ul>
         </div>
         """, unsafe_allow_html=True)
@@ -362,7 +368,7 @@ def header():
         # Optional: Add a button for engagement
         st.markdown("""
         <div style="text-align: center; margin-top: 1rem;">
-            <a href="https://www.linkedin.com/in/anuraganand" target="_blank" style="
+            <a href="https://www.linkedin.com/in/anuraganand14" target="_blank" style="
                 background-color: #0d1117;
                 color: #64ffda;
                 padding: 10px 20px;
@@ -391,6 +397,7 @@ def header():
             <div>Increase in operational efficiency for a UK-based startup</div>
         </div>
         """, unsafe_allow_html=True)
+
 
 
 # Experience section
