@@ -323,14 +323,14 @@ def header():
     
         st.markdown("""
         I am a **Data Scientist** with experience in designing and deploying **AI** and **machine learning solutions** 
-        that enhance business operations. My work focuses on **end-to-end AI implementation**, from **data engineering** 
+        that enhance business operations. My work focuses on Gen-AI implementation**, from **data engineering** 
         to **model development and deployment**.
         """)
     
         # Professional expertise summary
         st.markdown("""
         <div style="margin-top: 1.5rem;">
-            <p>My expertise spans multiple areas of **AI and data science**, including:</p>
+        <p>My expertise spans multiple areas of AI and data science, including:</p>
     
             <ul style="list-style-type: none; padding-left: 0;">
                 <li class="bullet-point"><strong>Data Engineering:</strong> Building and automating **data pipelines** using **Python (Pandas, SQL)** and **cloud platforms** like **Azure**</li>
