@@ -426,7 +426,58 @@ def experience():
 # Projects section
 def projects():
     st.markdown('<div class="section-title">Projects</div>', unsafe_allow_html=True)
+    
+    # GitHub profile link at the top of projects section
+    st.markdown("""
+    <div style="margin-bottom: 1rem; text-align: center;">
+        <a href="https://github.com/AnuragAnand14?tab=repositories" target="_blank" style="
+            display: inline-flex;
+            align-items: center;
+            background-color: #233554;
+            color: #64ffda;
+            padding: 0.7rem 1.2rem;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            margin-bottom: 1rem;
+        ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            View All Projects on GitHub
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
 
+    # Embed GitHub repositories page using HTML iframe with custom styling
+    github_embed_html = """
+    <div style="width: 100%; height: 700px; overflow: hidden; border-radius: 10px; border: 2px solid #64ffda; margin-bottom: 2rem;">
+        <iframe 
+            src="https://github.com/AnuragAnand14?tab=repositories" 
+            width="100%" 
+            height="100%" 
+            frameborder="0" 
+            style="border: none; overflow: hidden;"
+            allowfullscreen
+        ></iframe>
+    </div>
+    """
+    
+    st.components.v1.html(github_embed_html, height=720)
+    
+    # Note about GitHub integration
+    st.markdown("""
+    <div class="card" style="background-color: #112240; margin-top: 1rem;">
+        <div class="card-title">Featured Projects</div>
+        <p>Above is a live embed of my GitHub repositories. Due to GitHub's security policies, some interactive features may be limited within the embedded view.</p>
+        <p>For the best experience viewing my projects, you can click the button above to open my GitHub profile in a new tab.</p>
+    </div>
+    """, unsafe_allow_html=True)
+
+    # Optional: Still show a couple of highlighted projects below the embed
+    st.markdown('<div style="margin-top: 2rem;"></div>', unsafe_allow_html=True)
     col1, col2 = st.columns(2)
 
     with col1:
@@ -434,10 +485,8 @@ def projects():
         <div class="card">
             <div class="card-title">Campaign Crafter</div>
             <div class="bullet-point">Architected and deployed an end-to-end automated system using multi-agent AI for social media campaign generation.</div>
-            <div class="bullet-point">Implemented production-ready integration of company goals, values, and audience targeting for automated content creation.</div>
             <div class="bullet-point">Built and deployed scalable solution using Python, AutoGen framework, and OpenAI's GPT-4/DALL-E 3.</div>
-            <div class="bullet-point">Implemented prompt engineering techniques for enhanced AI responses.</div>
-            <a href="https://campaigncrafter-g0fre4bzc4cbb7b8.uksouth-01.azurewebsites.net/" target="_blank" class="project-link">View Prototype/POC for the Project</a>
+            <a href="https://campaigncrafter-g0fre4bzc4cbb7b8.uksouth-01.azurewebsites.net/" target="_blank" class="project-link">Prototype Demo</a>
         </div>
         """, unsafe_allow_html=True)
 
@@ -446,9 +495,7 @@ def projects():
         <div class="card">
             <div class="card-title">Chat Analyzer</div>
             <div class="bullet-point">Deployed automated evaluation system for production chatbot monitoring using UpTrain LLMops framework and OpenAI.</div>
-            <div class="bullet-point">Implemented comprehensive analytics including sentiment scoring, resolution tracking, and compliance monitoring.</div>
-            <div class="bullet-point">Deployed secure system features including urgency detection and robust security protocols.</div>
-            <div class="bullet-point">Designed and optimized PostgreSQL database schema for efficient chat data storage and statistical analysis on performance metrics.</div>
+            <div class="bullet-point">Implemented comprehensive analytics including sentiment scoring and compliance monitoring.</div>
         </div>
         """, unsafe_allow_html=True)
 
