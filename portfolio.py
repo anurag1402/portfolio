@@ -427,10 +427,10 @@ def experience():
 def projects():
     st.markdown('<div class="section-title">Projects</div>', unsafe_allow_html=True)
     
-    # GitHub profile link at the top of projects section
+    # Streamlit profile link at the top of projects section
     st.markdown("""
     <div style="margin-bottom: 1rem; text-align: center;">
-        <a href="https://github.com/AnuragAnand14?tab=repositories" target="_blank" style="
+        <a href="https://share.streamlit.io/user/anurag1402" target="_blank" style="
             display: inline-flex;
             align-items: center;
             background-color: #233554;
@@ -443,19 +443,19 @@ def projects():
             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
             margin-bottom: 1rem;
         ">
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-right: 8px;">
-                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="margin-right: 8px;">
+                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93c0-.62.08-1.21.21-1.79L9 15v1c0 1.1.9 2 2 2v1.93zm6.9-2.54c-.26-.81-1-1.39-1.9-1.39h-1v-3c0-.55-.45-1-1-1H8v-2h2c.55 0 1-.45 1-1V7h2c1.1 0 2-.9 2-2v-.41c2.93 1.19 5 4.06 5 7.41c0 2.08-.8 3.97-2.1 5.39z" fill="#64ffda"/>
             </svg>
-            View All Projects on GitHub
+            View All Projects on Streamlit
         </a>
     </div>
     """, unsafe_allow_html=True)
 
-    # Embed GitHub repositories page using HTML iframe with custom styling
-    github_embed_html = """
+    # Embed Streamlit profile page using HTML iframe with custom styling
+    streamlit_embed_html = """
     <div style="width: 100%; height: 700px; overflow: hidden; border-radius: 10px; border: 2px solid #64ffda; margin-bottom: 2rem;">
         <iframe 
-            src="https://github.com/AnuragAnand14?tab=repositories" 
+            src="https://share.streamlit.io/user/anurag1402" 
             width="100%" 
             height="100%" 
             frameborder="0" 
@@ -465,14 +465,14 @@ def projects():
     </div>
     """
     
-    st.components.v1.html(github_embed_html, height=720)
+    st.components.v1.html(streamlit_embed_html, height=720)
     
-    # Note about GitHub integration
+    # Note about Streamlit integration
     st.markdown("""
     <div class="card" style="background-color: #112240; margin-top: 1rem;">
         <div class="card-title">Featured Projects</div>
-        <p>Above is a live embed of my GitHub repositories. Due to GitHub's security policies, some interactive features may be limited within the embedded view.</p>
-        <p>For the best experience viewing my projects, you can click the button above to open my GitHub profile in a new tab.</p>
+        <p>Above is a live embed of my Streamlit applications. You can interact with these deployed data science and machine learning projects directly.</p>
+        <p>For the best experience viewing my projects, you can click the button above to open my Streamlit profile in a new tab.</p>
     </div>
     """, unsafe_allow_html=True)
 
@@ -498,7 +498,6 @@ def projects():
             <div class="bullet-point">Implemented comprehensive analytics including sentiment scoring and compliance monitoring.</div>
         </div>
         """, unsafe_allow_html=True)
-
 # Education section
 def education():
     st.markdown('<div class="section-title">Education</div>', unsafe_allow_html=True)
